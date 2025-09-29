@@ -4,15 +4,17 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-    const NAMES = ["Dan Kolonay", "Denia Casimiro", "Vitaliy Dmukhovskyy"]
+    const NAMES = ["Dan Kolonay", "Denia Casimiro", "Vitaliy Dmukhovskyy"];
     const [nameIndex, setNameIndex] = useState(0);
 
-    useEffect(()=>{
-        const interval = setInterval(()=>{
-            setNameIndex((prevIndex) => (prevIndex + 1) %3)
-        }, 2000)
-        return ()=>{clearInterval(interval)}
-    }, [])
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setNameIndex((prevIndex) => (prevIndex + 1) % 3);
+        }, 2000);
+        return () => {
+            clearInterval(interval);
+        };
+    }, []);
 
     return (
         <>
@@ -28,11 +30,15 @@ function App() {
                     />
                 </a>
             </div>
-            <h1>Hello from out team!</h1>
+            <h1>Hello from our team!</h1>
 
             <div className="card">
                 <h2>Our names are:</h2>
-                <button onClick={() => setNameIndex((prevIndex) => (prevIndex + 1) %3)}>
+                <button
+                    onClick={() =>
+                        setNameIndex((prevIndex) => (prevIndex + 1) % 3)
+                    }
+                >
                     {NAMES[nameIndex]}
                 </button>
                 <p>
