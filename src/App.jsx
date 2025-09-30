@@ -1,17 +1,22 @@
-import { Routes, Route } from 'react-router-dom';
+import {RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
-import DeniaCasimiro from './pages/DeniaCasimiro';
+import DeniaCasimiro from './pages/DanKolonay';
 import VitaliyDmukhovskyy from './pages/VitaliyDmukhovskyy';
 import DanKolonay from './pages/DanKolonay';
 
+const router = createBrowserRouter(
+    [
+        {path: '/', element: <Home/>},
+        {path: "/vitaliy-dmukhovskyy", element: <VitaliyDmukhovskyy />},
+        {path: "/denia-casimiro", element: <DeniaCasimiro/>},
+        {path: "/dan-kolonay", element: <DanKolonay />},
+    ],
+    {basename: "/intro-to-react-and-vite"}
+);
+
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/vitaliy-dmukhovskyy" element={<VitaliyDmukhovskyy />} />
-      <Route path="/denia-casimiro" element={<DeniaCasimiro/>} />
-      <Route path="/dan-kolonay" element={<DanKolonay />} />
-    </Routes>
+    <RouterProvider router={router}/>
   );
 }
 
