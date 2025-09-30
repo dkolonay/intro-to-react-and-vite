@@ -5,7 +5,6 @@ import "./Home.css";
 import TeamMemberCard from "../TeamMemberCard";
 
 function Home() {
-    const NAMES = ["Dan Kolonay", "Denia Casimiro", "Vitaliy Dmukhovskyy"];
     const teamData = [
         {
             name: "Dan Kolonay",
