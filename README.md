@@ -4,7 +4,7 @@ by Dan Kolonay, Denia Casimiro, and Vitaliy Dmukhovskyy
 
 ## How to view the project
 
-Option 1:
+Option A:
 
 Visit the live github pages site at https://dkolonay.github.io/intro-to-react-and-vite/
 
