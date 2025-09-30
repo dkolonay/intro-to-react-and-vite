@@ -18,7 +18,10 @@ export default function DanKolonay() {
           {/* Personality Card */}
           <div style={{ background: "linear-gradient(135deg,#6a5af9,#f857a6)", borderRadius: "28px", padding: "2.5rem 2rem", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "400px", height: "400px", boxShadow: "0 6px 32px #0008", width: "100%" }}>
             <h3 style={{ fontSize: "2.1rem", fontWeight: "bold", color: "#fff", textAlign: "center", lineHeight: 1.1, margin: 0, marginBottom: "1.2rem" }}>About Me</h3>
+              <div style={{ color: "#fff", fontSize: "1.13rem", textAlign: "left", lineHeight: 1.6, maxWidth: "90%" }}>
                 My name is Dan Kolonay, and I'm a senior computer science major at Baruch College. Before studying at Baruch, I earned a degree in ecomomics at George Washington University and have been running a small dog walking business for the past few years. In my free time I enjoy rock climbing, playing videogames, and hanging out with my rabbits, Mystic and Eevee.
+              </div>
+                
           </div>
         </div>
         {/* Never Have I Ever Section */}

@@ -20,7 +20,9 @@ export default function DeniaCasimiro() {
           {/* Personality Card */}
           <div style={{ background: "linear-gradient(135deg,#6a5af9,#f857a6)", borderRadius: "28px", padding: "2.5rem 2rem", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "400px", height: "400px", boxShadow: "0 6px 32px #0008", width: "100%" }}>
             <h3 style={{ fontSize: "2.1rem", fontWeight: "bold", color: "#fff", textAlign: "center", lineHeight: 1.1, margin: 0, marginBottom: "1.2rem" }}>About Me</h3>
-                //Write your bio or add anything you'd like here
+             <div style={{ color: "#fff", fontSize: "1.13rem", textAlign: "left", lineHeight: 1.6, maxWidth: "90%" }}>
+              //Write your bio or add anything you'd like here
+            </div>
           </div>
         </div>
         {/* Never Have I Ever Section */}

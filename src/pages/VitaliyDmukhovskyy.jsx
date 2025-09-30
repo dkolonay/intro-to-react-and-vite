@@ -18,7 +18,7 @@ export default function VitaliyDmukhovskyy() {
             <img src="https://cataas.com/cat/says/Meow?width=600&height=400" alt="Funny Cat" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "24px" }} />
           </div>
           {/* Personality Card */}
-          <div style={{ background: "linear-gradient(135deg,#6a5af9,#f857a6)", borderRadius: "28px", padding: "2.5rem 2rem", display: "flex", flexDirection: "column", alignItems: "center", minHeight: "400px", height: "400px", boxShadow: "0 6px 32px #0008", width: "100%", justifyContent: "flex-start" }}>
+          <div style={{ background: "linear-gradient(135deg,#6a5af9,#f857a6)", borderRadius: "28px", padding: "2.5rem 2rem", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "400px", height: "400px", boxShadow: "0 6px 32px #0008", width: "100%" }}>
             <h3 style={{ fontSize: "2.1rem", fontWeight: "bold", color: "#fff", textAlign: "center", lineHeight: 1.1, margin: 0, marginTop: "0.5rem", marginBottom: "1.2rem" }}>About Me</h3>
             <div style={{ color: "#fff", fontSize: "1.13rem", textAlign: "left", lineHeight: 1.6, maxWidth: "90%" }}>
               My name is Vitaliy Dmukhovskyy. I'm a senior CIS major with a triple minor in Philosophy, IDC Honors, and Film Studies. During an extended leave of absence, I was working in media production and transportation logistics. I'm currently working on a mobile app development project for a non-profit community organization. Born and raised in Ukraine.
