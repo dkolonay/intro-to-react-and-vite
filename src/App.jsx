@@ -1,6 +1,6 @@
 import {RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
-import DeniaCasimiro from './pages/DanKolonay';
+import DeniaCasimiro from './pages/DeniaCasimiro';
 import VitaliyDmukhovskyy from './pages/VitaliyDmukhovskyy';
 import DanKolonay from './pages/DanKolonay';
 
