@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import "../App.css";
+import "./Home.css";
 
 import TeamMemberCard from "../TeamMemberCard";
 
@@ -10,17 +10,17 @@ function Home() {
         {
             name: "Dan Kolonay",
             img: "dan_kolonay_selfie.jpg",
-            link: "dan_kolonay",
+            link: "dan-kolonay",
         },
         {
             name: "Denia Casimiro",
             img: "denia-photo-small.jpg",
-            link: "denia_casimiro",
+            link: "denia-casimiro",
         },
         {
             name: "Vitaliy Dmukhovskyy",
             img: "SelfieMAIN.jpg",
-            link: "vitaliy_dmukhovskyy",
+            link: "vitaliy-dmukhovskyy",
         },
     ];
     const [nameIndex, setNameIndex] = useState(0);
@@ -36,10 +36,11 @@ function Home() {
 
     return (
         <>
-            <div className={"head-section"}></div>
-            <h1>Hello from our team!</h1>
-            <h2>The members of our team are...</h2>
-            <button className={"name-cycle"}>{teamData[nameIndex].name}</button>
+            <div className={"head-section"}>
+                <h1>Hello from our team!</h1>
+                <h2>The members of our team are...</h2>
+                <div className={"name-cycle"}>{teamData[nameIndex].name}</div>
+            </div>
 
             <div className={"team-member-container"}>
                 {teamData.map((teamMember) => {

@@ -1,0 +1,55 @@
+.head-section{
+  margin: auto;
+  text-align: center;
+}
+
+.head-section h1 {
+  font-size: 50px;
+  margin-block-start: 0;
+  padding-top: 30px;
+  color: white;
+  text-shadow: 3px 3px rgb(21, 22, 59);
+}
+
+.head-section h2{
+    color: white;
+  text-shadow: 3px 3px rgb(21, 22, 59);
+}
+
+.name-cycle{
+  color: white;
+  font-weight: bold;
+    background-color: rgb(26, 47, 117);
+  width: 300px;
+  margin: auto;
+  border-radius: 5px;
+  padding:10px 0px;
+  box-shadow: 3px 3px 5px rgb(21, 22, 59);
+}
+
+.name-cycle{
+  margin-bottom: 20px;
+}
+
+.team-member-container{
+  display:flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 95%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (max-width:600px){
+  .team-member-container{
+    flex-direction: column;
+  }
+
+  .head-section h1 {
+    font-size: 30px;
+  }
+
+    .head-section h2 {
+    font-size: 18px;
+  }
+}
