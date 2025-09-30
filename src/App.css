@@ -5,6 +5,15 @@
   text-align: center;
 }
 
+.head-section{
+  margin: auto;
+  text-align: center;
+}
+
+.name-cycle{
+  margin-bottom: 20px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -16,6 +25,13 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.team-member-container{
+  display:flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 1080px;
 }
 
 @keyframes logo-spin {

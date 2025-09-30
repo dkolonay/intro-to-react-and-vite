@@ -1,0 +1,38 @@
+.team-member-card {
+    display: flex;
+    flex-direction: column;
+ 
+    margin: 0px 30px;
+    background-color: white;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px gray;
+}
+
+.team-member-card h3{
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.img-container{
+    width: 300px;
+    height: 300px;
+   
+}
+.card-image {
+    width: 80%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    margin-bottom:15px;
+}
+
+.team-member-card a {
+    width: 80%;
+    padding: 10px 30px;
+    background-color: rgb(49, 79, 179);
+    color: white;
+    cursor: pointer;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
