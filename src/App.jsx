@@ -11,7 +11,7 @@ const router = createBrowserRouter(
         {path: "/denia-casimiro", element: <DeniaCasimiro/>},
         {path: "/dan-kolonay", element: <DanKolonay />},
     ],
-    {basename: "/intro-to-react-and-vite"}
+    {basename: import.meta.env.DEV ? "/" : "/intro-to-react-and-vite"}
 );
 
 function App() {

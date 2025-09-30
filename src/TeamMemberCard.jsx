@@ -11,7 +11,7 @@ function TeamMemberCard(props) {
                     <img
                         onClick={()=>{navigate(props.link)}}
                         className={"card-image"}
-                        src={"./intro-to-react-and-vite/" + props.imgSrc || ""}
+                        src={props.imgSrc || ""}
                         alt={props.imgAlt || "none"}
                     />
                 </div>

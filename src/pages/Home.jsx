@@ -10,16 +10,19 @@ function Home() {
         {
             name: "Dan Kolonay",
             img: "dan_kolonay_selfie.jpg",
+            alt: "Dan Kolonay",
             link: "dan-kolonay",
         },
         {
             name: "Denia Casimiro",
             img: "denia-photo-small.jpg",
+            alt: "Denia Casimiro",
             link: "denia-casimiro",
         },
         {
             name: "Vitaliy Dmukhovskyy",
             img: "SelfieMAIN.jpg",
+            alt: "Vitaliy Dmukhovskyy",
             link: "vitaliy-dmukhovskyy",
         },
     ];
@@ -48,6 +51,7 @@ function Home() {
                         <TeamMemberCard
                             name={teamMember.name}
                             imgSrc={teamMember.img}
+                            imgAlt={teamMember.alt}
                             link={teamMember.link}
                             key={teamMember.name}
                         ></TeamMemberCard>
